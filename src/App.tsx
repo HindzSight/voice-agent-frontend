@@ -318,7 +318,7 @@ export default function App() {
                   <div style={{ fontSize: "13px", color: "#64748b", display: "grid", gap: "4px" }}>
                     <div>STT (Deepgram): ${cost.breakdown?.stt?.toFixed(5)} <span style={{ opacity: 0.7 }}>({cost.breakdown?.duration_seconds}s)</span></div>
                     <div>TTS (Cartesia): ${cost.breakdown?.tts?.toFixed(5)} <span style={{ opacity: 0.7 }}>({cost.breakdown?.tts_characters} chars)</span></div>
-                    <div>LLM (Ollama): ${cost.breakdown?.llm?.toFixed(2)}</div>
+                    <div>LLM (OpenRouter): ${cost.breakdown?.llm?.toFixed(2)}</div>
                   </div>
                 </div>
               )}
